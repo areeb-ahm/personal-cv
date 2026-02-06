@@ -12,7 +12,7 @@ The website also includes a light/dark mode toggle for better user experience.
 - Semantic HTML structure
 
 ## Live Link
-You can view the live website here: [Areeb's CV]([personal-cv-orcin.vercel.app](https://personal-cv-orcin.vercel.app))
+You can view the live website here: [Areeb's CV]((https://personal-cv-orcin.vercel.app))
 
 ## Author
 **Name:** Areeb Ahmed  
