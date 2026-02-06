@@ -13,7 +13,7 @@ body {
 
 body a {
     text-decoration: none;
-    color: lightseagreen;
+    color: #FF4B2B;
 }
 
 #dark-toggle:checked ~ .container {
@@ -107,7 +107,7 @@ h3 {
 }
 
 .contact ul li a {
-    color: lightseagreen;
+    color: #FF4B2B;
     text-decoration: none;
 }
 
