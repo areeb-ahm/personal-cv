@@ -1,0 +1,172 @@
+* {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+    background-color: rgb(31, 31, 31);
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#dark-toggle:checked ~ .container {
+  background-color: white;
+  color: black;
+}
+
+/* h1, h2 {
+    color: #1f2933;
+}
+
+h3 {
+    color: #374151;
+} */
+
+.chkBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 700px;
+    height: 1477px;
+    border: 2px solid #4b5563;
+    /* background-color: #f4f6f8; */
+    background-color: #252525;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.header {
+    width: 656px;
+    height: 230px;
+    /* border: 2px solid #4b5563; */
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    border: none;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.about {
+    width: 656px;
+    height: 140px;
+    /* border: 2px solid #4b5563; */
+    margin: 10px;
+    padding: 10px;
+}
+
+.education {
+    width: 656px;
+    height: 130px;
+    /* border: 2px solid #4b5563; */
+    margin: 10px;
+    padding: 10px;
+}
+
+.skills {
+    width: 656px;
+    height: 210px;
+    /* border: 2px solid #4b5563; */
+    margin: 10px;
+    padding: 10px;
+}
+
+.projects {
+    width: 656px;
+    height: 250px;
+    /* border: 2px solid #4b5563; */
+    margin: 10px;
+    padding: 10px;
+}
+
+.contact {
+    width: 656px;
+    height: 160px;
+    /* border: 2px solid #4b5563; */
+    margin: 10px;
+    padding: 10px;
+}
+
+.contact ul li a {
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+.footer {
+    width: 656px;
+    height: 70px;
+    /* border: 2px solid #4b5563; */
+    margin: 10px;
+    padding: 10px;
+}
+
+/* .header, .about, .education, .skills, .projects, .contact, .footer {
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+} */
+
+@media (max-width: 768px) {
+
+  body {
+    padding: 10px;
+    align-items: flex-start;
+  }
+
+  .container {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-width: 1px;
+  }
+
+  .header,
+  .about,
+  .education,
+  .skills,
+  .projects,
+  .contact,
+  .footer {
+    width: 100%;
+    height: auto;
+    margin: 8px 0;
+    padding: 10px;
+  }
+
+  .header img {
+    width: 80px;
+    height: 80px;
+  }
+
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  ul {
+    padding-left: 18px;
+  }
+}
